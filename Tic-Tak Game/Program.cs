@@ -19,7 +19,7 @@ class TicTacToeGame
             DisplayBoard();
             if (CheckWinner("X"))
             {
-                Console.WriteLine("🎉 You win!");
+                Console.WriteLine("You win!");
                 break;
             }
 
@@ -33,7 +33,7 @@ class TicTacToeGame
             DisplayBoard();
             if (CheckWinner("O"))
             {
-                Console.WriteLine("💻 Computer wins!");
+                Console.WriteLine("Computer wins!");
                 break;
             }
 
